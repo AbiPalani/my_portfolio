@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicons -->
+    <link 
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/bootstrap.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/html.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Abinaya SP | Full Stack Developer</title>
+  </head>
+
+  <body>
+    
+    <!-- Navbar -->
+    <nav>
+      <h1>ABINAYA SP</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <br/>
+      <img
+        src="images/Abinaya.jpg"
+        alt="Abinaya"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am an enthusiastic professional IT savvy with a knowledge of FULL STACK DEVELOPMENT 
+          who is actively seeking for a job. 
+        </p>
+      </div>
+</section>
+
+    
+    
+
+  
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I have completed MASTER OF ENGINEERING IN COMPUTER SCIENCE and have experience in teaching field.
+        I currently looking for transition in my career, because of pretty much interest in programming language. 
+      </p>
+      <p>
+        I like to learn new things, good team worker and easily adopt to any environment. 
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="icons/bootstrap.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/javascript-logo.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/favicon.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="icons/html.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+     </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Projects done by me</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="images/crm.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">CRM</h3>
+          <p class="project-details">
+            It is to manage and analyze customer interactions and data throughout the customer lifecycle,
+            to improve customer service relationships.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="images/diary.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Diary Management System</h3>
+          <p class="project-details">
+            A digital diary to remind the upcoming events. You can add, delete, update and view the events.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="http://mail.google.com/mail/" method="GET">
+            <div class="form-control">
+            <p>Contact No: +91 8870699423</p>
+            <p>Email: abipalani0610@gmail.com</p>
+            <input
+              type="submit"
+              value="Send Email"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="icons/scroll_up.png"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+       <!-- Social accounts - Fixed to the right -->
+      <p>Social Links</p>
+      <a href="https://www.linkedin.com/in/abinaya-palani-3b9027191/" target="_blank"
+        ><img
+          src="icons/linked.png"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/AbiPalani" target="_blank"
+        ><img src="icons/GitHub-logo.png" alt="Github" class="socicon"
+      /></a>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by Abinaya
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
